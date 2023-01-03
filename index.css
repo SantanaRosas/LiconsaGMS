@@ -355,7 +355,7 @@ footer {
 }
 .grid{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: auto auto;
   padding: 10px;
   width: 100%;
   /* background-color: #bc955c; */
