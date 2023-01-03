@@ -1,0 +1,32 @@
+#contenido{
+    width: 100%;
+    height: auto;
+    background: #000;
+}
+.cuadro{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding: 40px;
+    float: left;
+    background: #fff;
+}
+.ma{
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+.dato{
+    display: flex;
+    float: left;
+    border-color: black;
+    padding: 50px;
+    margin: 25px;
+    width: 260px;
+    border: 50px;
+    border-radius: 10%;
+    background: #000;
+}
+.color-texto{
+    color: #fff;
+}

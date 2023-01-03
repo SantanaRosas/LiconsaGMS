@@ -1,0 +1,42 @@
+
+.s{
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: auto;
+}
+#inner {
+    width: 100%;
+    margin: 55px;
+    float: left;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  @media screen and (min-width: 480px) {
+    #inner{
+        width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 780px) {
+    #inner{
+        width: 100%;
+    }
+  }
+  .pdf{
+    text-align: center;
+    width: 250px;
+    height: 120px;
+    color: #fff;
+    padding: 25px;
+    display: block;
+    border-radius: 10px;
+    float: left;
+    margin: 25px;
+    background: #bc955c;
+  }

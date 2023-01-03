@@ -1,0 +1,171 @@
+/* comedor */
+
+.comedor {
+  width: 100%;
+  height: 536px;
+  position: static;
+}
+
+.comedor {
+  width: 100%;
+  margin: 0;
+  margin-top: 115px;
+  overflow: hidden;
+}
+
+.comedor ul {
+  width: 100%;
+  display: flex;
+  padding: 0;
+  width: 900%;
+  flex-shrink: 0;
+
+  animation: cambio 30s infinite alternate linear;
+}
+
+.comedor li {
+  width: 100%;
+  list-style: none;
+  animation-play-state: paused;
+}
+
+.comedor img {
+  width: 100%;
+  scroll-snap-align: center;
+}
+
+@keyframes cambio {
+  0% {
+    margin-left: 0%;
+  }
+
+  20% {
+    margin-left: 0%;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+
+  30% {
+    margin-left: -100%;
+  }
+
+  35% {
+    margin-left: -200%;
+  }
+
+  40% {
+    margin-left: -200%;
+  }
+
+  45% {
+    margin-left: -300%;
+  }
+
+  50% {
+    margin-left: -300%;
+  }
+
+  55% {
+    margin-left: -400%;
+  }
+
+  60% {
+    margin-left: -400%;
+  }
+
+  65% {
+    margin-left: -500%;
+  }
+
+  70% {
+    margin-left: -500%;
+  }
+
+  75% {
+    margin-left: -600%;
+  }
+
+  80% {
+    margin-left: -600%;
+  }
+
+  85% {
+    margin-left: -700%;
+  }
+
+  90% {
+    margin-left: -700%;
+  }
+
+  95% {
+    margin-left: -800%;
+  }
+
+  100% {
+    margin-left: -800%;
+  }
+}
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  background: orangered;
+  color: #000;
+  text-align: center;
+}
+
+.content-table thead tr {
+  background: #0b231e;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 12px;
+  border: 5px solid #000;
+}
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* responsive */
+@media screen and (max-width: 600px) {
+  table {
+    width: 100%;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr td:first-child {
+    background: #0b231e;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #ffffff;
+  }
+
+  tbody td {
+    display: block;
+    text-align: center;
+  }
+
+  tbody td:before {
+    content: attr(data-th);
+    display: block;
+    text-align: center;
+  }
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}

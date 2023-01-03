@@ -1,0 +1,134 @@
+/* contactos */
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    background: #bc955c;
+    color: #000;
+    text-align: center;
+  }
+  
+  .content-table thead tr {
+    background: #0b231e;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 12px;
+    border: 5px solid #000;
+  }
+
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  /* responsive */
+  @media screen and (max-width: 600px) {
+    table {
+      width: 100%;
+    }
+  
+    thead {
+      display: none;
+    }
+  
+    tr td:first-child {
+      background: #0b231e;
+      font-weight: bold;
+      font-size: 1.5em;
+      color: #ffffff;
+    }
+  
+    tbody td {
+      display: block;
+      text-align: center;
+    }
+  
+    tbody td:before {
+      content: attr(data-th);
+      display: block;
+      text-align: center;
+    }
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  /* fin de contactos */
+  /* inicio de estilo busqueda */
+.box {
+  margin: 50px auto;
+  width: 300px;
+  height: 50px;
+}
+
+.container-1 {
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: static;
+}
+
+.container-1 input#buscador::-webkit-input-placeholder {
+  color: black;
+}
+
+.container-1 input#buscador:-moz-placeholder {
+  /* Firefox 18- */
+  color: black;
+}
+
+.container-1 input#buscador::-moz-placeholder {
+  /* Firefox 19+ */
+  color: black;
+}
+
+.container-1 input#buscador:-ms-input-placeholder {
+  color: white;
+}
+
+.container-1 input#buscador:hover,
+.container-1 input#buscador:focus,
+.container-1 input#buscador:active {
+  outline: none;
+  background: #ffffff;
+}
+
+.container-1 input#buscador {
+  width: 300px;
+  height: 50px;
+  background: #595959;
+  border: none;
+  font-size: 13pt;
+  font-weight: 800;
+  float: left;
+  color: #000000;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-transition: background .55s ease;
+  -moz-transition: background .55s ease;
+  -ms-transition: background .55s ease;
+  -o-transition: background .55s ease;
+  transition: background .55s ease;
+}
+
+.filtro {
+  display: none;
+}
+
+.filtro1 {
+  display: none;
+}
+
+/* fin del estilo del buscador */

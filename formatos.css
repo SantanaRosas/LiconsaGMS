@@ -1,0 +1,115 @@
+footer{
+    margin-top: 400px;
+}
+h4, small, a{
+    margin: 0;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+.carrusel{
+    width: 100%;
+    margin: 0px 0px;
+}
+@media(min-width: 768px) {
+    .carrusel{
+        margin: 0px 60px;
+    }
+    
+}
+h2{
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+    background: rgba(0, 0, 0, 0.7);
+}
+.carrusel h2{
+    line-height: 38px;
+    padding-bottom: 50px;
+    opacity: .9;
+    text-transform: uppercase;
+    
+}
+.carrusel-list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 305px;
+    padding: 10px 0px;
+    margin: 30px auto;
+    max-width: 90vw;
+    overflow: hidden;
+    z-index: 0;
+}
+.carrusel-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease-in-out;
+    z-index: 0;
+}
+.carrusel{
+    position: relative;
+    width: 210px;
+    padding: 0 18px;
+    float: left;
+    box-sizing: border-box;
+    height: 100%;
+}
+.carrusel h4{
+    position: absolute;
+    z-index: 1;
+    font-size: 22px;
+    line-height: 23px;
+    color: #fff;
+    padding: 15px;
+}
+.carrusel h4 small{
+    font-size: 15px;
+    display: block;
+}
+.carrusel a img{
+    object-fit: cover;
+    height: 300px;
+    width: 200px;
+    border-radius: 15px;
+    transition: .3s ease-in-out;
+}
+@media (min-width: 768px){
+    .carrusel{
+        width: 275px;
+    }
+    .carrusel a img{
+        width: 250px;
+    }  
+}
+
+.carrusel-arrow{
+    border-radius: 30px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 4;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+}
+.carrusel-arrow:focus{
+    outline: 0;
+}
+.carrusel-arrow svg{
+    width: 12px;
+    height: 100%;
+    color: rgba(0, 0, 0, 0.7);
+}
+.carrusel-prev{
+    left: 0px;
+}
+.carrusel-next{
+    right: 0px;
+}
