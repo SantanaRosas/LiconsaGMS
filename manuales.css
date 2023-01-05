@@ -1,7 +1,7 @@
 #contenido{
     width: 100%;
     height: auto;
-    background: #000;
+    /* background:rgba(0, 0, 0, .5); */
 }
 .cuadro{
     width: 100%;
@@ -9,23 +9,24 @@
     padding: 0 20px;
     padding: 40px;
     float: left;
-    background: #fff;
 }
 .ma{
     text-align: center;
     color: #fff;
     padding: 20px;
+    background: rgba(0, 0, 0, .5);
 }
 .dato{
     display: flex;
     float: left;
-    border-color: black;
     padding: 50px;
     margin: 25px;
-    width: 260px;
+    width: 265px;
     border: 50px;
     border-radius: 10%;
-    background: #000;
+    background: transparent;
+    border: 2px solid #000;
+    background: #8a0015;
 }
 .color-texto{
     color: #fff;
