@@ -10,7 +10,7 @@ form {
     /* box-shadow: 0  9px 50px rgba(0, 0, 0, 0.5); */
     padding: 2%;
     /* background: linear-gradient(-20deg, rgba(0,0,0,1) 30%, rgba(71,0,28,1) 60%, rgba(0,255,202,1) 90%); */
-    background-color: #8a0015;
+    background-color: #fff;
     /* background: linear-gradient(90deg, rgba(255,249,249,1) 0%, rgba(0,0,0,1) 50%); */
 }
 
@@ -40,7 +40,7 @@ header {
 /*  A welcome message or an explanation of the login form */
 header p {
     letter-spacing: 0.05em;
-    color: #fff;
+    color: #000;
 }
 
 .img-sesion {
@@ -52,12 +52,12 @@ h2 {
     text-transform: Uppercase;
     margin-bottom: .5em;
     font-size: 3rem;
-    color: #E4E5E6;
 }
 
 h2 {
     position: relative;
-    background: linear-gradient(-20deg, rgb(255, 255, 255) 10%, rgb(56, 59, 59) 90%);
+    /* background: linear-gradient(-20deg, rgb(255, 255, 255) 10%, rgb(56, 59, 59) 90%); */
+    background: #000;
     /* background: linear-gradient(90deg, rgba(0,249,238,1) 0%, rgba(10,66,79,1) 50%, rgba(187,185,185,1) 100%); */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -76,7 +76,7 @@ h2 {
 
 /* Show/hide password Font Icon */
 #eye {
-    color: #000;
+    color: #fff;
 
     margin: 9px 0 0 0;
     margin-left: -20px;
@@ -101,14 +101,14 @@ input[class="form-input"] {
     padding: 15px;
 
     font-size: 20px;
-    color: #000;
+    color: #fff;
 
     outline: none;
     border: none;
 
     border-radius: 0px 5px 5px 0px;
     transition: 0.2s linear;
-    /* background: black; */
+    background: black;
 
 }
 
@@ -129,13 +129,13 @@ input:focus {
 /* buttons  */
 button {
     display: inline-block;
-    color: #252537;
+    color: #fff;
 
     width: 300px;
     height: 50px;
 
     padding: 0 20px;
-    background: #fff;
+    background: #000;
     border-radius: 5px;
 
     outline: none;
@@ -147,6 +147,7 @@ button {
 
     margin: 7% auto;
     letter-spacing: 0.05em;
+    font-size: 1.5rem;
 }
 
 /* buttons hover */
