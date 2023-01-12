@@ -114,14 +114,14 @@
   width: 100%;
   border-radius: 5px 5px 0 0;
   overflow: hidden;
-  background: orangered;
-  color: #000;
+  background: #151515;
+  color: #fff;
   text-align: center;
 }
 
 .content-table thead tr {
-  background: #0b231e;
-  color: #ffffff;
+  background: #151515;
+  color: #fa9600;
   text-align: center;
   font-weight: bold;
 }
@@ -129,7 +129,7 @@
 .content-table th,
 .content-table td {
   padding: 12px 12px;
-  border: 5px solid #000;
+  border: 5px solid #fa9600;
 }
 .content-table tbody tr.active-row {
   font-weight: bold;
